@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Matcha ASMR test videos · stone mill and tin filling</title>
+<meta name="description" content="Two 15-second vertical ASMR test videos: a rotating granite stone mill, and filling, weighing, sealing and labelling a matcha tin.">
+<style>
+  :root { --paper: #F2F0E8; --ink: #1E2A20; --leaf: #5E7F3C; --muted: #6F756A; --line: #DCDCCF; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { background: var(--paper); color: var(--ink); font-family: "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+         display: flex; flex-direction: column; align-items: center; padding: clamp(32px, 6vh, 64px) 18px 40px; min-height: 100vh; }
+  .kicker { font-weight: 600; font-size: 12px; letter-spacing: .32em; text-transform: uppercase; color: var(--leaf); margin: 0; padding-left: .32em; text-align: center; }
+  h1 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: clamp(30px, 4.4vw, 48px); line-height: 1.08; margin: 12px 0 8px; text-align: center; }
+  .sub { color: var(--muted); font-size: 14px; margin: 0 0 clamp(26px, 4vh, 40px); text-align: center; line-height: 1.5; }
+  .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 360px)); gap: clamp(24px, 5vw, 64px); justify-content: center; align-items: start; }
+  /* 9:16 videos: the frame wraps the video exactly and shrinks to fit the window height. */
+  .phone { width: min(360px, 88vw, calc((100vh - 150px) * 9 / 16)); padding: 8px; border-radius: 32px; background: var(--ink);
+           box-shadow: 0 28px 64px rgba(30, 42, 32, .22); margin: 0 auto; }
+  .phone video { width: 100%; aspect-ratio: 9 / 16; height: auto; display: block; border-radius: 25px; background: #000; object-fit: contain; }
+  video:fullscreen, video:-webkit-full-screen { object-fit: contain; width: 100%; height: 100%; max-width: none; border-radius: 0; }
+  figure { margin: 0; }
+  figcaption { margin-top: 16px; text-align: center; font-size: 14px; color: var(--muted); line-height: 1.55; max-width: 360px; margin-left: auto; margin-right: auto; }
+  figcaption b { display: block; font-family: Georgia, serif; font-weight: 400; font-size: 21px; color: var(--ink); margin-bottom: 4px; }
+  .note { max-width: 760px; margin: clamp(36px, 6vh, 56px) auto 0; font-size: 14px; line-height: 1.6; color: var(--muted); text-align: center; }
+  section.more { width: min(900px, 100%); margin-top: clamp(48px, 8vh, 88px); border-top: 1px solid var(--line); padding-top: clamp(32px, 5vh, 48px); }
+  section.more h2 { font-family: Georgia, serif; font-weight: 400; font-size: clamp(24px, 3vw, 32px); margin: 10px 0 clamp(20px, 3vh, 32px); text-align: center; }
+  .wide video { width: 100%; aspect-ratio: 16 / 9; display: block; border-radius: 10px; background: #000; object-fit: contain; box-shadow: 0 22px 52px rgba(30, 42, 32, .2); }
+  .wide figcaption { max-width: 640px; }
+  @media (max-width: 760px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+  <p class="kicker">Paid-test samples for this brief</p>
+  <h1>Stone mill &amp; tin filling, ASMR</h1>
+  <p class="sub">Two 15-second videos · 9:16 · 1080 × 1920 · natural sound only, no music, no voices · turn the sound on</p>
+
+  <div class="grid">
+    <figure>
+      <div class="phone">
+        <video controls playsinline preload="metadata" poster="media/stone-mill-poster.jpg?v=3">
+          <source src="media/stone-mill-asmr.mp4?v=3" type="video/mp4">
+        </video>
+      </div>
+      <figcaption><b>1 · From leaf to powder</b>Tea leaves go into the hopper, trickle into the turning granite stone, the stone turns, fresh green powder sifts out, and a brush gathers it. Every sound follows the action on screen.</figcaption>
+    </figure>
+    <figure>
+      <div class="phone">
+        <video controls playsinline preload="metadata" poster="media/filling-labeling-poster.jpg?v=4">
+          <source src="media/filling-labeling-asmr.mp4?v=4" type="video/mp4">
+        </video>
+      </div>
+      <figcaption><b>2 · Für Lena</b>Fill and weigh to 40.0 g, close the lid, print the personal strip label, seal it over the lid. The scale reading is added in the edit, so it stays sharp.</figcaption>
+    </figure>
+  </div>
+
+  <p class="note">AI-generated concept visuals. The mill and the tin follow your reference images; the scale, printer and the "Für Lena" label are stand-ins made for this test. In production, your own photos become the start frames.</p>
+
+  <section class="more">
+    <p class="kicker">Earlier example</p>
+    <h2>A real product's mechanism, animated from its own renders</h2>
+    <figure class="wide">
+      <video controls playsinline preload="none" poster="https://waxwingfactor.github.io/c-four-window-winder-sample/media/poster.jpg?v=1">
+        <source src="https://waxwingfactor.github.io/c-four-window-winder-sample/media/c-four-out-of-reach.mp4?v=1" type="video/mp4">
+      </video>
+      <figcaption>Spec film for an electric window winder (16:9, 24 s). The winder and remote are built from the maker's product renders, and the chain opening the window is pinned between a closed and an open frame, so the motion matches the real product.</figcaption>
+    </figure>
+  </section>
+</body>
+</html>

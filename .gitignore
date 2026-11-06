@@ -1,0 +1,6 @@
+# Only the minimal public page is published.
+/*
+!/.gitignore
+!/.nojekyll
+!/index.html
+!/media/
